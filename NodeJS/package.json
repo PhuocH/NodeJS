@@ -1,0 +1,35 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhuocH/NodeJS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "blog"
+  ],
+  "author": "PhuocH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhuocH/NodeJS/issues"
+  },
+  "homepage": "https://github.com/PhuocH/NodeJS#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "mongoose": "^8.3.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.0"
+  }
+}
